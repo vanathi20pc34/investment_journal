@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.decision-form input, .decision-form textarea, .decision-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.decision-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.decision-form button:hover {
+  background-color: #0056b3;
+}
+
+.ai-insights {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.logged-decisions ul {
+  list-style-type: none;
+}
+
+.logged-decisions li {
+  padding: 5px;
+}
